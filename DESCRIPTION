@@ -21,4 +21,8 @@ Imports:
     fs,
     here,
     glue,
-    readr
+    readr,
+    dplyr,
+    magrittr,
+    stringr,
+    tibble
