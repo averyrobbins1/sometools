@@ -13,17 +13,7 @@ get_started()
 Use this function when starting a new project to help keep code and files
 organized. Following a project-oriented workflow, the working directory
 should be set as the project directory.
-get_started creates the following files:
-}
-\details{
-\itemize{
-\item data-raw
-\item data-derived
-\item eda
-\item scripts
-\item models
-\item helpers
-}
+get_started creates the following files: data-raw, data-derived, eda, scripts, #' models, helpers
 }
 \examples{
 get_started()
