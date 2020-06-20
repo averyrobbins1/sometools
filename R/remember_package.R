@@ -1,3 +1,13 @@
+#' Keep a record of packages
+#'
+#' @param package_name The package that you want to remember surrounded
+#'  in quotes.
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' remember_package("ggthemr")
 remember_package <- function(package_name) {
 
   if (fs::file_exists(here::here("packages.R"))) {
