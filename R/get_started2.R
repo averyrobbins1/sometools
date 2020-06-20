@@ -1,9 +1,8 @@
 #' Create custom directories easily
 #'
-#' Create whatever directories you want. Type in the directory names in quotes
-#' separated by commas.
+#' Create whatever directories you want.
 #'
-#' @param ... dots
+#' @param ... Names of directories you want to create in quotes.
 #'
 #' @return
 #' @export

@@ -7,14 +7,13 @@
 get_started2(...)
 }
 \arguments{
-\item{...}{}
+\item{...}{Names of directories you want to create in quotes.}
 }
 \value{
 
 }
 \description{
-Create whatever directories you want. Type in the directory names in quotes
-separated by commas.
+Create whatever directories you want.
 }
 \examples{
 get_started2("data", "reports", "analysis")
