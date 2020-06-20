@@ -1,3 +1,3 @@
-dplyr
 lemon
 marissa
+ggrepel

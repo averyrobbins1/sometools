@@ -20,3 +20,7 @@
 # } else {
 #   print("That")
 # }
+#
+# packages <- readr::read_lines("packages.R")
+#
+# packages %>%
