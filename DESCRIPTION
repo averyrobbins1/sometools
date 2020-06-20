@@ -1,16 +1,21 @@
 Package: sometools
-Title: What the Package Does (One Line, Title Case)
+Title: Provides Some Tools to Automate Various Tasks 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Avery",
+           family = "Robbins",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "avery.lewis.robbins@gmail.com"
+           )
+Description: This package was created in an effort to automate certain tasks
+  and processes that Avery Robbins found himself doing on a regular basis. It
+  will initially be a place where he stores helper functions and just functions
+  in general that automate manual tasks.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+Imports: 
+    purrr,
+    fs
