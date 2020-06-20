@@ -11,7 +11,7 @@
 #' @examples
 #' source_helpers()
 source_helpers <- function() {
-  walk(
+  purrr::walk(
     fs::dir_ls(
       here::here("helpers")
       ), source

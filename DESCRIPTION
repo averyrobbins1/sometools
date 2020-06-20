@@ -19,4 +19,6 @@ RoxygenNote: 7.1.0
 Imports: 
     purrr,
     fs,
-    here
+    here,
+    glue,
+    readr
