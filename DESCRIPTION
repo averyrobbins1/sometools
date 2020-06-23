@@ -25,4 +25,5 @@ Imports:
     dplyr (>= 1.0.0),
     magrittr (>= 1.5),
     stringr (>= 1.4.0),
-    tibble (>= 3.0.1)
+    tibble (>= 3.0.1),
+    rstudioapi (>= 0.11)

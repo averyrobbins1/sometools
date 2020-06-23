@@ -24,4 +24,8 @@ Quickly record a note for future reference
 \examples{
 add_note("Remember to tweak the tuning grid for the random forest model",
 name = "random-forest")
+
+}
+\seealso{
+\code{\link{add_notes}} for capturing many notes from an R script.
 }

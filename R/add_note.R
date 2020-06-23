@@ -12,6 +12,8 @@
 #' @examples
 #' add_note("Remember to tweak the tuning grid for the random forest model",
 #' name = "random-forest")
+#'
+#' @seealso \code{\link{add_notes}} for capturing many notes from an R script.
 add_note <- function(note, name = "general", ext = "Rmd") {
 
   if (fs::dir_exists(here::here("notes"))) {
