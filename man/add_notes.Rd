@@ -14,5 +14,5 @@ Notes in the specified location.
 comment markers #!# and records everything between those markers.
 }
 \examples{
-add_notes()
+\dontrun{add_notes()}
 }

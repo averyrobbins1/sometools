@@ -8,8 +8,9 @@
 #' @export
 #'
 #' @examples
-#' mtcars %>% dplyr::count(wt) %>% print_all(.)
+#' `%>%` <- magrittr::`%>%`
+#' dplyr::starwars %>% dplyr::count(name) %>% print_all()
 print_all <- function(data) {
-  print(n = dplyr::nrow(data))
+  print(data, n = nrow(data))
 }
 

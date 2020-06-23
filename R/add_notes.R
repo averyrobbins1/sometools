@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' add_notes()
+#' \dontrun{add_notes()}
 add_notes <- function() {
 
   `%>%` <- magrittr::`%>%`

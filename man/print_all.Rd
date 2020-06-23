@@ -16,5 +16,6 @@ A dataset with all of the rows printed to screen.
 Quickly print every row of your data.
 }
 \examples{
-mtcars \%>\% dplyr::count(wt) \%>\% print_all(.)
+`\%>\%` <- magrittr::`\%>\%`
+dplyr::starwars \%>\% dplyr::count(name) \%>\% print_all()
 }
