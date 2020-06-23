@@ -1,0 +1,8 @@
+----
+Recorded: 2020-06-22 21:12:42
+
+Note: Add a feature to add_note where I can say code = TRUE and it will surround the
+text that I specify with ```{r} <code> ```. Would only work with Rmd files. Also
+make sure to use add_note in the logic of add_notes
+----
+
