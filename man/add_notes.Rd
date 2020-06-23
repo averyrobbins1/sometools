@@ -7,9 +7,12 @@
 add_notes()
 }
 \value{
-
+Notes in the specified location.
 }
 \description{
 \code{add_notes} reads the current active script and looks for special
 comment markers #!# and records everything between those markers.
+}
+\examples{
+add_notes()
 }

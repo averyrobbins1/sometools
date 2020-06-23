@@ -3,10 +3,11 @@
 #' \code{add_notes} reads the current active script and looks for special
 #' comment markers #!# and records everything between those markers.
 #'
-#' @return
+#' @return Notes in the specified location.
 #' @export
 #'
 #' @examples
+#' add_notes()
 add_notes <- function() {
 
   `%>%` <- magrittr::`%>%`
