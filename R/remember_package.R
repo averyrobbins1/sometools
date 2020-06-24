@@ -31,7 +31,7 @@ remember_package <- function(package_name) {
 
   } else {
 
-    print("Created 'packages.R' file!")
+    print("Created 'packages.R'!")
 
     fs::file_create(here::here("packages.R"))
 
