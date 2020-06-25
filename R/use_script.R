@@ -7,8 +7,8 @@
 #' @export
 #'
 #' @examples
-#' new_script("01_student-total")
-new_script <- function(script_name, author = "Avery Robbins") {
+#' use_script("01_student-total")
+use_script <- function(script_name, author = "Avery Robbins") {
 
   if (!fs::dir_exists("scripts")) {
     fs::dir_create("scripts")
