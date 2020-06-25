@@ -41,7 +41,7 @@ use_eda <- function(script_name, author = "Avery Robbins") {
 # packages ----------------------------------------------------------------
 
 pacman::p_load(tidyverse, DataExplorer)
-pacman::p_load_current_gh('averyrobbins1/sometools', 'ropensci/skimr')
+pacman::p_load_gh('averyrobbins1/sometools', 'ropensci/skimr')
 
 # read data ---------------------------------------------------------------
 
