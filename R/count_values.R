@@ -12,13 +12,12 @@ count_values <- function(data, ...) {
 
   `%>%` <- magrittr::`%>%`
 
-  print(
+
     dplyr::select(data, ...) %>%
       dplyr::mutate(dplyr::across(dplyr::everything(), as.character)) %>%
       purrr::map_dfr(
         ~ dplyr::count(
           tibble::tibble(value = .x), value, sort = TRUE
           ), .id = "variable"
-        ), n = nrow(data)
-  )
+        )
 }

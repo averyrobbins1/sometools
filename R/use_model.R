@@ -31,7 +31,7 @@ use_model <- function(script_name, author = "Avery Robbins") {
 #
 # notes:
 #
-#
+# https://www.tidymodels.org/
 #
 #
 #
@@ -40,14 +40,35 @@ use_model <- function(script_name, author = "Avery Robbins") {
 
 # packages ----------------------------------------------------------------
 
-pacman::p_load(tidyverse, tidymodels)
+pacman::p_load(tidyverse, tidymodels, tictoc)
 pacman::p_load_gh('averyrobbins1/sometools')
+
+# set seed ----------------------------------------------------------------
+
+set.seed(123)
 
 # read data ---------------------------------------------------------------
 
 dat <- read_csv('')
 
 dat %>% glimpse()
+
+
+
+# split data & resample ---------------------------------------------------
+
+
+# model spec --------------------------------------------------------------
+
+
+# recipe ------------------------------------------------------------------
+
+
+
+# workflow ----------------------------------------------------------------
+
+
+
 "
     )
     readr::write_lines(header, glue::glue("models/{script_name}.R"))
