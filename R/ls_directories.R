@@ -32,3 +32,24 @@ ls_scripts <- function(){
 ls_eda <- function(){
   fs::dir_ls("eda")
 }
+
+#' @describeIn ls_directories List all of the scripts in the data-derived
+#' directory
+#' @export
+ls_data_derived <- function(){
+  fs::dir_ls("data-derived")
+}
+
+#' @describeIn ls_directories List all of the scripts in the data-raw directory
+#' @export
+ls_data_raw <- function(){
+  fs::dir_ls("data-raw")
+}
+
+#' @describeIn ls_directories List all of the scripts in the helpers directory
+#' @export
+ls_helpers <- function(){
+  fs::dir_ls("helpers")
+}
+
+
