@@ -4,6 +4,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' current_script()
+#' }
 current_script <- function() {
   rstudioapi::getActiveDocumentContext()$path
 }

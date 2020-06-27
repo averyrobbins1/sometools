@@ -16,5 +16,5 @@ prop <- function(data, column, na.rm = TRUE) {
   data %>%
     dplyr::count( {{ column }} ) %>%
     dplyr::mutate(prop = n/sum(n, na.rm = na.rm)) %>%
-    as_tibble()
+    tibble::as_tibble()
 }

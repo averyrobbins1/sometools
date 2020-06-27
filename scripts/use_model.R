@@ -40,7 +40,7 @@ use_model <- function(script_name, author = "Avery Robbins") {
 
 # packages ----------------------------------------------------------------
 
-pacman::p_load(tidyverse, tidymodels, tictoc)
+pacman::p_load(tidyverse, tidymodels, vip, tictoc)
 pacman::p_load_gh('averyrobbins1/sometools')
 
 # set seed ----------------------------------------------------------------
@@ -54,7 +54,6 @@ dat <- read_csv('')
 dat %>% glimpse()
 
 
-
 # split data & resample ---------------------------------------------------
 
 
@@ -64,9 +63,10 @@ dat %>% glimpse()
 # recipe ------------------------------------------------------------------
 
 
-
 # workflow ----------------------------------------------------------------
 
+
+# create grid & tune hyperparameters --------------------------------------
 
 
 "

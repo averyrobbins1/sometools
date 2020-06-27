@@ -12,3 +12,6 @@ a character vector
 \description{
 Provide a useful outline of a typical tidymodels workflow
 }
+\examples{
+outline_workflow()
+}

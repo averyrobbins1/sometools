@@ -12,3 +12,8 @@ a character vector
 \description{
 Get the path to the current script
 }
+\examples{
+\dontrun{
+current_script()
+}
+}

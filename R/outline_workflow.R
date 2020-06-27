@@ -6,8 +6,47 @@
 #' @export
 #'
 #' @examples
+#' outline_workflow()
 outline_workflow <- function() {
-  save(current_script())
-  cat("tree_spec <- \ntree_rec <- \ntree_wf <- \n",
-      file = current_script())
+
+  cat("#tree_spec <- \n#tree_rec <- \n#tree_wf <- \n")
 }
+
+
+# split data & resample ---------------------------------------------------
+
+set.seed(123)
+
+
+# model spec --------------------------------------------------------------
+
+
+
+# recipe ------------------------------------------------------------------
+
+
+
+# workflow ----------------------------------------------------------------
+
+
+
+# create grid & tune hyperparameters --------------------------------------
+
+# library(clipr)
+
+x <-
+"
+This is a test
+Here is some text
+Hello!
+"
+
+# clipr::write_clip(x)
+#
+#
+# This is a test
+# Here is some text
+# Hello!
+
+
+
