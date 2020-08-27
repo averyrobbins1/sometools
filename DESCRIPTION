@@ -28,4 +28,5 @@ Imports:
     tibble (>= 3.0.1),
     rstudioapi (>= 0.11),
     pacman (>= 0.5.1),
-    rsthemes (>= 0.0.7)
+    rsthemes (>= 0.0.7),
+    clipr

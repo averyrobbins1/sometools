@@ -4,7 +4,10 @@
 \alias{outline_workflow}
 \title{Provide a useful outline of a typical tidymodels workflow}
 \usage{
-outline_workflow()
+outline_workflow(prefix = NULL)
+}
+\arguments{
+\item{prefix}{a character vector}
 }
 \value{
 a character vector
