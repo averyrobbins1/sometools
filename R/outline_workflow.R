@@ -80,7 +80,7 @@ set.seed(123)
 
 ")
 
-clipr::write_clip(x)
+clipr::write_clip(x, allow_non_interactive = TRUE)
 
 }
 
